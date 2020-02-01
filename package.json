@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,17 @@
     "url": "https://github.com/tsmvision/nextjs-typescript-jest-enzyme-template/issues"
   },
   "homepage": "https://github.com/tsmvision/nextjs-typescript-jest-enzyme-template#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/enzyme": "^3.10.4",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
+    "typescript": "^3.7.5"
+  },
   "dependencies": {
     "next": "^9.2.1",
     "react": "^16.12.0",
