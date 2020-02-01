@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-typescript-jest-enzyme-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsmvision/nextjs-typescript-jest-enzyme-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsmvision/nextjs-typescript-jest-enzyme-template/issues"
+  },
+  "homepage": "https://github.com/tsmvision/nextjs-typescript-jest-enzyme-template#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
